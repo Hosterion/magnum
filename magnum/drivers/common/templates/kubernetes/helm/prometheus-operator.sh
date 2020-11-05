@@ -186,7 +186,7 @@ prometheus-operator:
     prometheusConfigReloaderImage:
       repository: ${CONTAINER_INFRA_PREFIX:-quay.io/coreos/}prometheus-config-reloader
     hyperkubeImage:
-      repository: ${CONTAINER_INFRA_PREFIX:-k8s.gcr.io/}hyperkube
+      repository: ${CONTAINER_INFRA_PREFIX:-ghcr.io/hosterion/}hyperkube
 
   prometheus:
     prometheusSpec:
